@@ -20,8 +20,10 @@
                 <ul>
                     <li><a href = "">About</a></li>
                     <li><a href = "">Store</a></li>
-                    <li style="float:right"><a href = "">Gmail</a></li>
+                    <li style="float:right"><input id="signIn" type="button" value="Sign In"></li>
+                    <li style="float:right"><img src="https://image.flaticon.com/icons/svg/60/60991.svg" id="icon"></li>
                     <li style="float:right"><a href = "">Images</a></li>
+                    <li style="float:right"><a href = "">Gmail</a></li>
                 </ul>
             </div>
         </header>
@@ -31,10 +33,14 @@
                 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
             </div>
             <div class = "form">
+                <div  id="searchBar">
+                    <form>
+                            <input id="search" type="search">
+                    </form>
+                </div>
                 <form>
-                        <input id="search" type="search">
-                        <input type="submit" value="Google Search">
-                        <input type="submit" value="I'm Feeling Lucky">
+                        <input id="searchBtn" type="button" value="Google Search">
+                        <input id="luckyBtn" type="button" value="I'm Feeling Lucky">
                 </form>
             </div>
         </div>
